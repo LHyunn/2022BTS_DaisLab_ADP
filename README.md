@@ -1,5 +1,7 @@
 # 2022BTS_DaisLab_ADP
 
+환경 : RTX 3090
+
 1. work directory 이동 - cd 2022BTS_DaisLab_ADP-main
 2. Docker Image 제작.
     

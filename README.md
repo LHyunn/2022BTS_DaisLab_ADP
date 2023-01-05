@@ -24,4 +24,5 @@
 # 전체 디렉토리 구조. 
 
 빈 디렉토리는 Git에 반영이 되지 않아서 디렉토리 추가 후 실행 필요.
+
 <img width="532" alt="스크린샷 2023-01-05 오후 7 45 41" src="https://user-images.githubusercontent.com/74236661/210762183-1ed7ec15-f000-4cf8-b987-0b04527827fe.png">

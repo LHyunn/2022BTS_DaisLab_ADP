@@ -34,7 +34,7 @@
 #
 #-------------------------------------------------------------------------------
 ###Backend Directory Setting
-#PATH_BASE_DIR = "/home/dais01/Desktop/2022BTS/Backend"
+PATH_BASE_DIR = BASE_DIR + "/Backend"
 PATH_TRAIN_CSV = "/csv/csv_file/"
 PATH_PREDICT_CSV = "/csv/csv_predict_file/"
 PATH_CSV_INFO = "/csv/csv_file_info/"

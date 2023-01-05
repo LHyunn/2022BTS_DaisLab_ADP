@@ -24,59 +24,118 @@
 # 전체 디렉토리 구조. (빈 디렉토리는 Git에 반영이 되지 않아서 디렉토리 추가 후 실행 필요.)
 .
 ├── api.txt
+
 ├── Backend
+
 │   ├── csv
+
 │   │   ├── csv_file
+
 │   │   ├── csv_file_info
+
 │   │   └── csv_predict_file
+
 │   ├── image
+
 │   │   ├── image_file
+
 │   │   │   ├── Accept
+
 │   │   │   └── Reject
+
 │   │   └── image_predict_file
+
 │   ├── parameter(json)
+
 │   ├── process_log
+
 │   ├── py_file
+
 │   │   ├── BTS_module
+
 │   │   │   ├── __init__.py
+
 │   │   │   ├── predict.py
+
 │   │   │   ├── preprocessing.py
+
 │   │   │   └── test.py
+
 │   │   ├── predict.py
+
 │   │   └── test.py
+
 │   ├── result
+
 │   │   ├── Predict_result
+
 │   │   └── Test_result
+
 │   ├── sound
+
 │   │   ├── sound_file
+
 │   │   │   ├── Accept
+
 │   │   │   └── Reject
+
 │   │   ├── sound_file(jpg)
+
 │   │   │   ├── Accept
+
 │   │   │   └── Reject
+
 │   │   ├── sound_file(split)
+
 │   │   │   ├── test
+
 │   │   │   │   ├── Accept
+
 │   │   │   │   └── Reject
+
 │   │   │   ├── train
+
 │   │   │   │   ├── Accept
+
 │   │   │   │   └── Reject
+
 │   │   │   └── val
+
 │   │   │       ├── Accept
+
 │   │   │       └── Reject
+
 │   │   ├── sound_predict_file
+
 │   │   └── sound_predict_file(jpg)
+
 │   ├── test
+
 │   └── training_model
+
 ├── backend.py
+
 ├── config.py
+
 ├── Dockerfile
+
 ├── frontend.py
+
 ├── pages
+
 │   ├── data predict.html
+
 │   ├── data preprocessing.html
+
 │   ├── Hyperparameter.html
+
 │   ├── Image Model.html
+
 │   ├── model train.html
+
 │   └── Time Series Model.html
+
 └── requirements.txt
+
+
+

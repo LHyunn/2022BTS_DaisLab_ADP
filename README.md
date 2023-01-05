@@ -19,4 +19,4 @@
     
     수정 후 주석 처리된 것을 해제.
     
-5. uvicorn backend:app --reload --host 203.250.72.8 --port 18302 & dtale-streamlit run frontend.py
+5. uvicorn backend:app --reload & dtale-streamlit run frontend.py

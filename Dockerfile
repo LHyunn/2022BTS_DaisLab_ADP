@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.10.0-gpu
+FROM tensorflow/tensorflow:latest-gpu
 RUN pip install pandas \
     pip install numpy \
     pip install sklearn \
@@ -8,6 +8,9 @@ RUN pip install pandas \
     pip install ipython \
     pip install pyod\
     pip install opencv-contrib-python \
-    pip install librosa && apt-get install libsndfile1 -y && apt-get install libgl1-mesa-glx -y
+    pip install librosa 
+RUN apt-get update
+RUN apt-get install libsndfile1 -y 
+RUN apt-get install libgl1-mesa-glx -y
 CMD ["test.py"]
 ENTRYPOINT ["python3"]
